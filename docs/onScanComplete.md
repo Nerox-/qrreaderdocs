@@ -1,14 +1,14 @@
 ## onScanComplete(event)
 
-Launches the camera and starts scanning for barcodes and QR codes.
+Event recieved after Barcode/QR scanning is completed.
 
-*Properties:*
+***Properties:***
 
-* event.name
+* event.name<br>
 <small>__[String](https://docs.coronalabs.com/api/type/String.html)__ "onScanComplete".</small>
 
-* event.isError
+* event.isError<br>
 <small>__[Boolean](https://docs.coronalabs.com/api/type/Boolean.html)__ If an error occurred, this is 'true', otherwise 'false'.</small>
 
-* event.result
+* event.result<br>
 <small>__[String](https://docs.coronalabs.com/api/type/String.html)__ decoded data from a QR code or a barcode.</small>

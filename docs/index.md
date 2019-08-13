@@ -1,4 +1,4 @@
-<style>.codehilite{padding-top:2px;padding-bottom:6px;}</style>
+﻿<style>.codehilite{padding-top:2px;padding-bottom:6px;}</style>
 
 __A Barcode/QR Reader for Corona SDK development.__
 
