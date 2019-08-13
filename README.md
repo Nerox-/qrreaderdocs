@@ -40,14 +40,15 @@ The latest version requires Corona 2017.3068 or later.
 > <small>Default is `false`.</small></small>
 > 
 > 	**barcodeFormat**<sub><sub>optional</sub></sub><br>
-> 	<small>[String](https://docs.coronalabs.com/api/type/String.html). scan barcode format. <br>	
+> 	<small>[String](https://docs.coronalabs.com/api/type/String.html). scan barcode format. <br>
+><small
 > **Available formats:** <br>	
 > **"all"**: <small>includes all barcode formats. </small><br>
 > **"one-d"**: <small>includes 'UPC_A', 'UPC_E', 'EAN_8', 'EAN_13', 'CODE_39', 'CODE_93', 'CODE_128', 'ITF', 'RSS_14', 'RSS_EXPANDED'</small> 	<br>
 > **"qrcode"**: <small>includes 'QR_CODE'</small> <br>
 > **"product"**: <small>includes 'UPC_A', 'UPC_E', 'EAN_8', 'EAN_13', 'RSS_14'</small> <br>	
 > **"data-matrix"**: <small>includes 'DATA_MATRIX'</small> 	</small> 	<br>
-> 
+> </small>
 > **onScanResult** <sub><sub>optional</sub></sub> <br>	<small>
 > _[Listener](https://docs.coronalabs.com/api/type/Listener.html)._ Listener which receives the event when the scanning has been completed
 > or cancelled. 	<br>
