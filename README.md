@@ -41,7 +41,7 @@ The latest version requires Corona 2017.3068 or later.
 > 
 > 	**barcodeFormat**<sub><sub>optional</sub></sub><br>
 > 	<small>[String](https://docs.coronalabs.com/api/type/String.html). scan barcode format. <br>
-><small
+><small>
 > **Available formats:** <br>	
 > **"all"**: <small>includes all barcode formats. </small><br>
 > **"one-d"**: <small>includes 'UPC_A', 'UPC_E', 'EAN_8', 'EAN_13', 'CODE_39', 'CODE_93', 'CODE_128', 'ITF', 'RSS_14', 'RSS_EXPANDED'</small> 	<br>
