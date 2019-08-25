@@ -12,3 +12,6 @@ Event recieved after Barcode/QR scanning is completed.
 
 * event.result<br>
 <small>__[String](https://docs.coronalabs.com/api/type/String.html)__ decoded data from a QR code or a barcode.</small>
+
+* event.state<br>
+<small>__[String](https://docs.coronalabs.com/api/type/String.html)__ "completed" or "cancelled".</small>
