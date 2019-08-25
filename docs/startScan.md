@@ -29,7 +29,7 @@ onScanComplete  <sub>optional</sub><br>
 
 ```lua
 qrscanner.startScan( {
-	onScanResult = function(event) 
+	onScanComplete = function(event) 
 		print(event.state) -- "completed" or "cancelled"
 		print(tostring(event.isError)) -- "true" or "false"
 		print(event.result) -- scanned data
