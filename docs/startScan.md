@@ -28,7 +28,8 @@ onScanComplete  <sub>optional</sub><br>
 ##  Example
 
 ```lua
-qrscanner.startScan( {
+local qrreader = require("plugin.qrreader")
+qrreader.startScan( {
 	onScanComplete = function(event) 
 		print(event.state) -- "completed" or "cancelled"
 		print(tostring(event.isError)) -- "true" or "false"
