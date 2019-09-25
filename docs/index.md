@@ -20,8 +20,9 @@ settings =
     },      
 }
 ```
-Sample Project:<br>
+Sample Project<br>
 https://github.com/Nerox-/QRReader-Sample<br>
+
 ---
 
 ## API Directory
